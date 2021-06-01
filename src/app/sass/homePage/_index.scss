@@ -3,3 +3,53 @@
 @import "callToAction";
 @import "announcement";
 @import "footer";
+
+
+@media (max-width: 480px)
+{
+  .carousel-custom{
+    height: 40vh !important;
+  }
+
+  .house-grid{
+    grid-template-columns: 1fr;
+  }
+  .house-content{
+    width: 100%;
+  }
+  .house-rent{
+    margin-left: 176px !important;
+    margin-top: -270px !important;
+  }
+
+
+  .announcement-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .announcement-content{
+    margin: 10px 0;
+  }
+}
+
+
+@media (max-width: 600px)
+{
+  .carousel-custom{
+    height: 40vh !important;
+  }
+
+  .house-grid{
+    grid-template-columns: 1fr;
+  }
+  .house-content{
+    width: 100%;
+  }
+  .house-rent{
+    margin-left: 100px;
+  }
+
+  .announcement-grid{
+    grid-template-columns: 1fr;
+  }
+}
