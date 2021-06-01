@@ -5,10 +5,9 @@
 @import "footer";
 
 
-@media (max-width: 480px)
-{
+@media only screen and (max-width: 480px){
   .carousel-custom{
-    height: 40vh !important;
+    height: 35vh !important;
   }
 
   .house-grid{
@@ -18,8 +17,36 @@
     width: 100%;
   }
   .house-rent{
-    margin-left: 176px !important;
-    margin-top: -270px !important;
+    margin-left: 180px;
+    margin-top: -270px;
+  }
+
+  .announcement-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .announcement-content{
+    margin: 10px 0;
+  }
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 600px){
+  .carousel-custom{
+    height: 40vh !important;
+  }
+
+  .house-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .house-rent{
+    margin-left: 70%;
+    margin-top: -390px;
+  }
+
+  .house-content{
+    width: 100%;
   }
 
 
@@ -32,24 +59,14 @@
   }
 }
 
-
-@media (max-width: 600px)
-{
-  .carousel-custom{
-    height: 40vh !important;
-  }
-
-  .house-grid{
-    grid-template-columns: 1fr;
-  }
-  .house-content{
-    width: 100%;
-  }
-  .house-rent{
-    margin-left: 100px;
-  }
-
+@media only screen and (max-width: 1024px) and (min-width: 768px){
   .announcement-grid{
     grid-template-columns: 1fr;
   }
+  .house-rent{
+    margin-left: 75%;
+    margin-top: -258%
+  }
 }
+
+
