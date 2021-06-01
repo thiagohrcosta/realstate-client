@@ -1,4 +1,8 @@
-
+@media only screen and (max-width: 360px){
+  .house-grid{
+    grid-template-columns: 1fr !important;
+  }
+}
 .house-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

@@ -1,7 +1,108 @@
-.carousel-container{
-  width: 100%;
 
-  .carousel-custom{
-    height: 70vh;
+// .carousel-container{
+//   width: 100%;
+
+//   .carousel-custom{
+//     height: 70vh;
+//   }
+// }
+
+
+@media only screen and (max-width: 360px){
+  .header-bg{
+    height: 60vh;
+  }
+
+  .header-banner-content{
+    padding-top: 120px !important;
+
+    .header-title{
+      font-size: 28px !important;
+    }
+    .header-subtitle{
+      display: none !important;
+    }
+  }
+
+
+
+  .search{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #233e8b;
+
+    .search-input{
+      width: 100% !important;
+    }
+
+
+
+    .btn-search{
+      margin-top: 10px;
+      width: 100% !important;
+      margin-left: 0px !important;
+      border: 1px solid #fff;
+      color: #fff;
+    }
+  }
+
+
+}
+
+.header-bg{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),  url("https://res.cloudinary.com/dloadb2bx/image/upload/v1622556090/photo-1580587771525-78b9dba3b914_g6uczg.jpg");
+  height: 90vh;
+  background-size: 100% 100%;
+}
+
+.header-banner-content{
+  padding-top: 200px;
+  color: #fff;
+
+  .header-title{
+    font-size: 48px;
+    font-weight: bold;
+
+  }
+
+  .header-subtitle{
+    font-size: 32px;
+    font-weight: lighter;
+  }
+
+}
+
+
+
+.menu-style{
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.navbar-nav{
+  margin-left: auto;
+}
+
+.nav-login{
+  border: 1px solid #233e8b;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.search{
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #233e8b;
+
+  .search-input{
+    width: 90%;
+  }
+
+  .btn-search{
+    margin-left: 10px;
+    border: 1px solid #fff;
+    color: #fff;
   }
 }
