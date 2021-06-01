@@ -1,10 +1,4 @@
-
-.carousel-container{
-  width: 100%;
-
-  .carousel-custom{
-    height: 70vh;
-  }
-
-
-}
+@import "carousel";
+@import "content";
+@import "callToAction";
+@import "announcement";
