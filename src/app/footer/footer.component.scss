@@ -1,0 +1,18 @@
+.footer-bg{
+  background-color: #fff;
+
+  .footer-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .icons-social{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.fa-custom{
+  margin-right: 20px;
+}
